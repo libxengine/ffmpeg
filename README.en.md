@@ -1,7 +1,9 @@
 # windows-ffmpeg
 
 #### Description
-windows ffmpeg x86 x64编译模块地址
+windows-ffmpeg 项目地址
+此项目只提供ffmpeg的windows版本.包含了x86和x64版本
+此版本为官方最新正式版源码为基础编译.
 
 #### Software Architecture
 Software architecture description
