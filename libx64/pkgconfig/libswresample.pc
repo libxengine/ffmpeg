@@ -1,0 +1,14 @@
+prefix=/home/runner/work/FFmpeg-Auto-Build/FFmpeg-Auto-Build/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n4.4_shared
+exec_prefix=${prefix}
+libdir=/home/runner/work/FFmpeg-Auto-Build/FFmpeg-Auto-Build/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n4.4_shared/lib
+includedir=/home/runner/work/FFmpeg-Auto-Build/FFmpeg-Auto-Build/ffmpeg-windows-build-helpers/sandbox/win64/ffmpeg_git_n4.4_shared/include
+
+Name: libswresample
+Description: FFmpeg audio resampling library
+Version: 3.9.100
+Requires: 
+Requires.private: libavutil >= 56.70.100
+Conflicts:
+Libs: -L${libdir}  -lswresample 
+Libs.private: -lm -lsoxr
+Cflags: -I${includedir}
