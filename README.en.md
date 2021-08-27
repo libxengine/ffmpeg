@@ -1,38 +1,107 @@
-# windows-ffmpeg
+# windows-ffmpeg-module
 
-#### Description
-windows-ffmpeg 项目地址
-此项目只提供ffmpeg的windows版本.包含了x86和x64版本
-此版本为官方最新正式版源码为基础编译.
+#### current version
+
+4.4
+ 
+#### introduce
+This version is a dynamic library compilation mode.
+This project only provides the windows version of ffmpeg. Both x86 and x64 versions are included.
+This version is compiled based on the latest official version of the official source code.
+Only ffmpeg releases the latest official version of this project will be updated
 
 #### Software Architecture
-Software architecture description
+Compile the latest official version of ffmpeg without modification
+Contains support for many other third-party library audio and video codecs and hardware codecs
+You can use the help of ffmpeg to check the supported codecs
 
-#### Installation
+#### Installation tutorial
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Download directly through git or package
+2. It may need to be unzipped after downloading
+3. After entering the directory, ffmpeg.exe can be used directly
 
-#### Instructions
+#### Instructions for use
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1. Through the command line, use ffmpeg.exe ffplay.exe ffprobe.exe
+2. The versions provided are x86 and x64 bits. You can download as needed
+3. The provided version is only allowed to be used by systems above windows7 sp1
 
-#### Contribution
+#### Contains third party libraries
+dlfcn
+libxavs
+libdavs2
+zlib
+libcaca
+bzip2
+liblzma
+iconv
+sdl2
+amd_amf
+intel_quicksync
+nv
+libzimg
+libopenjpeg
+glew
+glfw
+libwebp
+harfbuzz
+libxml2
+libvmaf
+fontconfig
+gmp
+libnettle
+unistring
+libidn2
+gnutl
+openssl
+libogg
+libvorbis
+libopus
+libspeexdsp
+libspeex
+libtheora
+libsndfile
+lame
+twolame
+libopencore
+libilbc
+libmodplug
+libgme
+libbluray
+libbs2b
+libsoxr
+libflite
+libsnappy
+vamp_plugin
+fftw
+libsamplerate
+librubberband
+svt-hevc
+vidstab
+libmysofa
+fdk-aac
+libdecklink
+zvbi
+fribidi
+libass
+libxvid
+libsrt
+libaribb24
+libtesseract
+lensfun
+libvpx
+libx265
+libopenh264
+libaom
+dav1d
+avisynth
+libx264
 
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+#### Participate in Contribution
+
+Pull is not available in this warehouse.
 
 
-#### Gitee Feature
-
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### Copyright
+https://github.com/rdp/ffmpeg-windows-build-helpers

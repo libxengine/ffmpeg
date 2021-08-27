@@ -2,7 +2,7 @@
 
 #### 当前版本
 
-当前版本:4.3.2
+4.4
  
 #### 介绍
 此版本为动态库编译模式.  
@@ -101,3 +101,7 @@ libx264
 #### 参与贡献
 
 此仓库不提供Pull.
+
+
+#### 版权
+https://github.com/rdp/ffmpeg-windows-build-helpers
